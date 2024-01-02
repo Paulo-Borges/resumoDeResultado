@@ -5,6 +5,14 @@
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
+/* Dicas do @Danielmrz-dev */
+/* body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .container {
     max-width: 55rem;
     margin: 200px auto;
@@ -143,6 +151,12 @@ button {
     color: hsl(0, 0%, 100%);
     background: hsl(224, 30%, 27%);
     font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: hsl(224, 38%, 43%);
+    color:hsl(39, 100%, 56%);
 }
 
 @media (max-width: 500px) {
